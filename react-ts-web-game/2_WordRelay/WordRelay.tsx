@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState, useCallback, useRef } from 'react';
 
 const WordRelay = () => {
-  const [word, setWord] = useState<string>('제로초');
+  const [word, setWord] = useState<string>('kym');
   const [value, setValue] = useState('');
   const [result, setResult] = useState('');
   const inputEl = useRef<HTMLInputElement>(null);
